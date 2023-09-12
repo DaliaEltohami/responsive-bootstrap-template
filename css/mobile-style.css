@@ -1,0 +1,37 @@
+@media only screen and (max-width: 992px) {
+  header .navbar {
+    padding: 30px 0;
+  }
+  header .navbar .navbar-brand {
+    padding-left: 1.5em;
+  }
+  header .col-md-5 {
+    padding: 15vmin 1vmin;
+  }
+  .section1 .col-md-6 div.section1-content {
+    position: initial;
+    padding: 1em;
+  }
+  .section3 .platform .col-md-6 {
+    text-align: center !important;
+    padding: 0;
+  }
+
+  .section4 .cards {
+    height: inherit;
+  }
+
+  .section4 .cards {
+    height: inherit;
+  }
+  .section4 .cards .card {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section2 .numbers {
+    flex-wrap: wrap;
+  }
+}

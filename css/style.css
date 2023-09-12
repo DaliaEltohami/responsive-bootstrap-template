@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&family=Tajawal:wght@400;700;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+section,
+main,
+footer {
+  overflow-x: hidden;
+}
+:root {
+  --Snigle-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "Lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradiant: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header a {
+  font-family: var(--Snigle-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+header {
+  background: #dd2476;
+  background: var(--bggradiant);
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .navbar-brand:hover,
+header .nav-link:hover {
+  color: black;
+}
+
+header a i.fa-2xl {
+  vertical-align: 0;
+  padding-right: 0.4em;
+}
+
+header .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .col-md-7 {
+  padding: 9% 0.5%;
+  padding-bottom: 50px;
+  font-family: var(--Rubik);
+}
+
+header .col-md-5 img {
+  width: 90%;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 4em;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 13vmin;
+}
+header .container .col-md-7 button {
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 5px 40px;
+}
+/* section 1 */
+
+.section1 {
+  padding: 50px;
+}
+
+.section1 .col-md-6 .section1-img img {
+  opacity: 0.8;
+  width: 80%;
+  border-radius: 0.2em;
+}
+
+.section1 .col-md-6:last-child {
+  position: relative;
+}
+
+.section1 .col-md-6 .section1-content {
+  position: absolute;
+  left: -10em;
+  top: 3em;
+  padding: 5vmin 5vmin 6vmin 10vmin;
+  background-color: white;
+  border-radius: 3px;
+  font-family: var(--Rubik);
+  text-align: left;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.section1 .col-md-6 .section1-content h3 {
+  font-weight: bold;
+  padding: 0.4em 0em;
+  font-size: 2em;
+}
+
+.section1 .col-md-6 .section1-content p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* section 2 */
+
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background: url(../assets/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  /* background-position: -5em 0; */
+}
+
+.cover .content {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 19vmin;
+}
+
+.cover .content > h1 {
+  font-family: var(--Patua);
+  font-size: 6vmin;
+  color: whitesmoke;
+  padding: 0 20px;
+}
+
+.cover .content > p {
+  font-family: var(--Rubik);
+  font-size: 2vmin;
+  color: #e5e5e5;
+}
+
+.numbers .rec {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  border-radius: 0.5rem;
+  width: 35vmin;
+  height: 12rem;
+  padding-top: 6vmin;
+  margin: 1rem;
+  box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.7);
+}
+
+.numbers {
+  margin-top: -15vmin;
+}
+
+.numbers .rec h1 {
+  color: tomato;
+  font-size: 3.5rem;
+}
+
+.numbers .rec p {
+  font-family: var(--Patua);
+  text-transform: capitalize;
+}
+
+.purchase > h1 {
+  font-family: var(--Lobster);
+  /* font-weight: bold; */
+  padding-top: 15vmin;
+  padding-bottom: 1vmin;
+  font-size: 8vmin;
+}
+
+.purchase > p {
+  color: var(--light-black);
+  font-size: 3.5vmin;
+  padding-bottom: 10vmin;
+}
+
+.purchase .cards {
+}
+
+.purchase .cards .card {
+  width: 22rem;
+  margin-bottom: 1vmin;
+}
+
+.purchase .cards div {
+  padding: 0;
+  margin: 0;
+}
+
+.purchase .cards .card .title h1 {
+  background: rgba(208, 241, 241, 0.199);
+  padding: 1.4rem 2.5rem;
+  font-size: 1.5em;
+}
+
+.purchase .cards .card .card-text {
+  padding: 2.5rem 3rem;
+  color: var(--light-black);
+}
+
+.purchase .card-body .pricing {
+  background: rgba(208, 241, 241, 0.199);
+  border-top-left-radius: 170px;
+  border-top-right-radius: 170px;
+  padding: 1.5em;
+}
+
+.card-body .pricing > h1 {
+  font-size: 2em;
+  padding: 1em 0em;
+}
+
+/* Section 3 */
+
+.section3 {
+  margin-top: 7vmin;
+  min-height: 450px;
+  background: #dd2476;
+  background: var(--bggradiant);
+}
+
+.section3 .download-heading h1 {
+  color: white;
+  font-size: 7vmin;
+}
+
+.section3 .download-heading p {
+  padding: 5vmin 25vmin;
+  color: var(--light-gray);
+  font-size: 2vmin;
+}
+
+.section3 .platform .col-12 {
+  margin-bottom: 20px;
+}
+
+.section3 .platform .desktop {
+  width: 250px;
+  height: 100%;
+  background-color: white;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 1em;
+}
+
+.section3 .platform .desktop .icon {
+  line-height: 0;
+  padding-top: 0.2em;
+  padding-right: 3vmin;
+}
+
+.section3 .platform .desktop i {
+  line-height: normal;
+  font-size: 3em;
+}
+
+.section3 .platform .desktop h3 {
+  padding: 0;
+  margin: 0;
+}
+.section3 .platform .desktop p {
+  padding: 0;
+  margin: 0;
+}
+
+/* section 4 */
+
+.section4 {
+  margin: 5vmin 0;
+}
+
+.section4 .heading h2 {
+  /* padding: 1.5vmin 0; */
+}
+.section4 .cards {
+  padding: 10vmin 4vmin;
+  height: 700px;
+}
+
+.section4 .card {
+  width: 85%;
+  max-width: 400px;
+}
+
+.section4 .card-img-top {
+  height: 30%;
+}
+
+.section4 .card .card-text {
+  padding: 2vmin;
+  font-size: 1.5vmin;
+}
+
+.section4 .card .card-body > a {
+  font-size: 3vmin;
+  padding-bottom: 0.1em;
+}
+
+.border-radius {
+  border-radius: 340px;
+  width: 60%;
+}
+
+/* footer */
+
+footer {
+  background-color: rgba(0, 0, 0, 0.815);
+  padding: 10vmin 20vmin;
+  color: white;
+}
+
+footer .row .col-12 {
+  margin-bottom: 70px;
+}
+
+footer .row .col-md-5 {
+  padding-right: 35vmin;
+}
+
+footer .row .col-md-5 h2 {
+  margin-bottom: 5vmin;
+}
+
+footer .row .col-md-5 p {
+  margin-bottom: 5vmin;
+}
+
+footer .row .col-md-5 p span {
+  color: #ff512f;
+}
+
+footer .row .col-md-5 .input-group input {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+footer .row .col-md-5 .input-group input::placeholder {
+  color: white;
+}
+
+footer .row .col-md-5 .input-group .input-group-text {
+  background: var(--bggradiant);
+  border: none;
+}
+
+footer .social-icons i {
+  color: #dd2476;
+}
+
+footer .social-icons i {
+  padding-right: 2vmin;
+}
+
+/* sticky class */
+.sticky {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  transition: all 1.5s ease;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+}
